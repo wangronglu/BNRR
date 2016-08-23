@@ -423,7 +423,7 @@ Pi_y = unlist( mclapply(1:N_s,function(t){
 }) )
 
 Pi_y = array(Pi_y,c(V,V,n,N_s))
-proc.time()-ptm # 9s per iteration on comma
+proc.time()-ptm 
 
 mean_Pi_y = apply(Pi_y,c(1,2,3),sum)/N_s  # posterior mean of conditional expection
 
