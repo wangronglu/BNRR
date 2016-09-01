@@ -33,7 +33,6 @@ library(ggplot2)
 #LOAD DATA (available via VxVxN array with N the number of networks and V the nodes)
 #################################################################################
 #################################################################################
-setwd("~/Dropbox/Lu Project/Code&Data/Two-layer Factorization/real_data")
 load("brain_binary_IQ.RData")
 
 #Define Model Dimensions
